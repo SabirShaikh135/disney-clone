@@ -1,0 +1,131 @@
+.header{
+    height: 70px;
+    background-color: rgb(12, 12, 12);
+    display: flex;
+    align-items: center;
+    padding: 0 36px;
+}
+
+.header img{
+    width: 10%;
+    padding-left: 40px;
+}
+
+.header_menu{
+    display: flex;
+    align-items: center;    
+    flex: 1;
+    margin-left: 50px;
+}
+
+/* .header_menu a{
+    display: flex;
+    align-items: center;
+    padding: 0 12px;  
+    cursor: pointer;
+} */
+
+.header_menu ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    cursor: pointer;
+}
+
+.header_menu li{
+    list-style: none;
+}
+
+.header_menu li a{
+    display: flex;
+    align-items: center;
+    padding: 0 12px;  
+    cursor: pointer;
+}
+.header_menu .MuiSvgIcon-root{
+    height: 20px;
+}
+
+.header_menu span{
+    font-size: 14px;
+    letter-spacing: 1.2px;
+}
+
+.header_menu span:hover{
+    border-bottom: 3px solid white ;
+    padding-bottom: 2px;
+}
+
+.login_logo{
+    border: 1px solid #f9f9f9;
+    padding: 8px 16px;
+    border-radius: 5px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: all 0.2s ease 0s;
+    cursor: pointer;
+    color: white;
+}
+
+.login_logo:hover{
+    background-color: #f9f9f9;
+    color: #000;
+    border-color: transparent;
+}
+.login_cantainer{
+    display: flex;
+    flex: 1;
+    justify-content: end;
+}
+
+.Avatar {
+    cursor: pointer;
+}
+
+.username{
+    padding: 10px;
+}
+
+.SignOut_cantainer{
+    display: flex;
+    flex: 1;
+    justify-content: end;
+    align-items: center;
+}
+
+
+@media only screen and (max-width: 480px) {
+    .login_logo{
+        border: 1px solid #f9f9f9;
+        padding: 2px 4px;
+        border-radius: 5px;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        background-color: rgba(0, 0, 0, 0.6);
+        transition: all 0.2s ease 0s;
+        cursor: pointer;
+        color: white;
+        font-size: 12px;
+    }
+
+    .header img{
+        width: 40%;
+        padding-left: 0px;
+    
+    }
+
+     .header_menu{
+         display: none;
+     }
+     
+     .SignOut_cantainer{
+        display: flex;
+        flex: 1;
+        justify-content: end;
+    }
+    .Avatar{
+        display: none;
+    }
+
+    }

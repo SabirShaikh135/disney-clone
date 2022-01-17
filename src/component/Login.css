@@ -1,0 +1,79 @@
+.login{
+    min-height: calc(100vh - 70px);
+    padding: 0 calc(3.5vw - 5px);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.login_bacground{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.8;
+
+}
+
+.login_bacground img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.login_content{
+    max-width: 650px;
+    padding: 80px 40px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+  
+
+}
+
+.login_content_a{
+    width: 100%;
+    background-color: rgb(24, 151, 224);
+    font-weight: bold;
+    padding: 17px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    text-transform: capitalize;
+    transition: all 250ms;
+    letter-spacing: 1.5px;
+    margin-top: 14px;
+
+}
+.login_content_a:hover{
+    background-color: rgb(67, 162, 226);
+}
+
+.login_content p{
+    color: white;
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,18 @@
+.home{
+    min-height: calc(100vh - 70px);
+    padding: 0 calc(3.5vw - 5px);
+    position: relative;
+    overflow: hidden;
+}
+
+/* .home::before{
+    background: url("https://png.pngtree.com/thumb_back/fh260/back_pic/04/48/50/00585a3568a0a7d.jpg")
+    no-repeat;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  
+} */
